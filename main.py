@@ -25,4 +25,4 @@ for i, path in enumerate(path.glob('*.heic')):
     # полезная информация
     length -= 1
     print(f'{new_name} - done, осталось переименовать: {length} файлов')
-    # path.rename(new_name)
+    path.rename(new_name)
