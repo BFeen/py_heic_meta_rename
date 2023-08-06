@@ -6,10 +6,11 @@
 
 # 2. Useful info.
 it shows all metadata if you want to set code for another file format
-JPG contain another kind of DateTime - exif:DateTime
 
-// py
 with Image(filename="filename") as file:
 	for metadata in file.metadata:
 		print(metadata)
-//
+
+#3. Usage.
+After installing all instruments from 1., put your images inside the folder with name 'img' 
+near the main.py and start the program. 
